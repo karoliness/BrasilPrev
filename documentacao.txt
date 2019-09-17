@@ -1,0 +1,46 @@
+MODELO JSON DO PEDIDO
+{
+	"id": 0,
+	"cliente_id": 1,
+	"sessao": "vaso",
+	"pedidoItens": [
+		{
+			"id": 0,
+			"pedido_id": 1,
+			"produto_id": 1,
+			"quantidade": 2,
+			"valorUnitario": 100.00
+		}
+	]
+}
+MODELO JSON DO CLIENTE
+{
+	"id": 0,
+	"nome":"karoline",
+	"email":"karolinessilva@live.com",
+	"senha":"karoline",
+	"endereco":{
+		"id":0,
+		"rua":"HANNA ABDULHADAD",
+		"cidade":"campo grande",
+		"bairro":"jardim paradiso",
+		"cep":"12345678",
+		"estado":"MS"
+	}
+	
+	
+}
+MODELO JSON DO PRODUTO
+{
+	"id": 0,
+	"categoria":{
+		"id":0,
+		"nome":"vila"
+	},
+	"nome":"Computador",
+	"preco":"3500",
+	"quantidade":"1",
+	"descricao":"acer notebook",
+	"foto":""
+}
+
